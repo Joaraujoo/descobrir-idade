@@ -1,54 +1,29 @@
-# React + TypeScript + Vite
+# 🧠 Descubra sua Idade
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto simples feito com **HTML**, **CSS** e **JavaScript** que permite ao usuário digitar seu nome e o ano de nascimento para descobrir a idade atual.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Entrada de nome e ano de nascimento
+- Cálculo automático da idade com base no ano atual
+- Exibição de mensagem personalizada com o nome e idade utilizando a biblioteca toastify 
+- Layout responsivo e moderno
 
-## Expanding the ESLint configuration
+## 💻 Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- HTML5
+- CSS3
+- JavaScript
+- React JS
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📸 Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![Captura de tela 2025-04-20 204013](https://github.com/user-attachments/assets/278fc41d-9503-4a60-b828-e07d545e4d7e)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Como usar
+
+1. Clone o repositório:
+2. Abra o arquivo index.html no navegador
+3. Digite um nome e uma data válidos para ver o resultado.
+   
