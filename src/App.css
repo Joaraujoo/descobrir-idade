@@ -16,8 +16,8 @@
 
 .formulario{
   background-color: #fff;
-  height: 210px;
-  width: 350px;
+  height: 250px;
+  width: 400px;
   padding: 20px;
   color: #000;
   display: flex;
@@ -31,7 +31,7 @@
 
 .input{
   margin: 7px 0;
-  padding: 7px;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   background-color: rgb(32, 32, 32);
@@ -39,11 +39,11 @@
 }
 
 .input::placeholder{
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .button{
-  padding: 7px;
+  padding: 10px;
   margin-top: 10px;
   background-color: #00BCD4;
   border: 0;
